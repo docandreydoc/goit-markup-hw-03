@@ -63,13 +63,22 @@ a{
 text-decoration: none;
 
 }
-.container{
+.header-container{
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     gap: 24px;
 }
 .header{
-    border-bottom: 1px solid #e7e9fc
+    display: flex;
+    border-bottom: 1px solid #e7e9fc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
 }
 .header-nav{
     display: flex;
@@ -84,10 +93,7 @@ text-decoration: none;
 }
 
 .header-inner{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 24px;
+    
 }
 .header-address ul{
     display: flex;
