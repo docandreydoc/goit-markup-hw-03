@@ -156,10 +156,10 @@ text-decoration: none;
 .target-list{
     display: flex;
     gap:24px;
-    
+    padding: 0;
 }
 .target-item{
-    width:: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 
 }
 .target-title{
@@ -197,7 +197,7 @@ text-decoration: none;
 .teams-list{
     display: flex;
     gap: 24px;
-    
+    padding-left: 0;
     padding-bottom: 120px;
 }
 
@@ -240,7 +240,7 @@ text-decoration: none;
     column-gap: 24px;
     flex-wrap: wrap;
     row-gap: 48px;
-    
+    padding: 0;
 }
 .portfolio-item{
     flex-basis: calc((100% - 48px) / 3);
