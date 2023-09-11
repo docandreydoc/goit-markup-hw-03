@@ -17,6 +17,14 @@ body{
 
 ul{
     list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+}
+p{
+    margin: 0;
 }
 button{
     font-family: "Roboto", sans-serif;
@@ -198,7 +206,6 @@ text-decoration: none;
     display: flex;
     gap: 24px;
     padding-left: 0;
-    padding-bottom: 120px;
 }
 
 .teammate-background{
